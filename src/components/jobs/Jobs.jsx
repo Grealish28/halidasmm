@@ -19,11 +19,11 @@ export default function Jobs(props){
     return(
         <div className={Styles.jobs_page}>
             <div className={Styles.jobs_container}>
-                <h2 className={Styles.jobs_header} data-aos="zoom-out">O’zingiz hohlagan mutaxassis bo'ling!</h2>
+                <h2 className={Styles.jobs_header}>O’zingiz hohlagan mutaxassis bo'ling!</h2>
                 <div className={Styles.jobs_memojies} >
-                    <img src={memoji} alt="memoji1" className={Styles.jobs_memoji} data-aos="flip-left"/>
+                    <img src={memoji} alt="memoji1" className={Styles.jobs_memoji}/>
                 </div>
-                <div className={Styles.jobs_cards} data-aos="fade-down">
+                <div className={Styles.jobs_cards}>
                     <JobsCard imgSrc={emojismm} text="SMM Mutaxassis"/>
                     <JobsCard imgSrc={emojimobilography} text="Mobilograf"/>
                     <JobsCard imgSrc={emojiblogger} text="Blogger"/>

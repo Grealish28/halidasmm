@@ -17,7 +17,7 @@ export default function Roadmap(){
         <div className={Styles.page}>
             <div className={Styles.container}>
                 <div className={Styles.header}>
-                    <h2 className={Styles.header_title} data-aos="zoom-in">Modullar</h2>
+                    <h2 className={Styles.header_title}>Modullar</h2>
                 </div>
                 <div className={Styles.scroll_container}>
                     <ul className={Styles.items}>
