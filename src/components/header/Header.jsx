@@ -39,9 +39,9 @@ export default function Header(){
                 <p className={Styles.header_subtitle}>Yangi yilni yangi kasb bilan boshlang!</p>
             </div>
             <img src={HeaderImage} alt="founderimage" className={Styles.header_image}/>
-            <a href="#pricing" className={Styles.header_button}>
+            {/* <a href="#pricing" className={Styles.header_button}>
                 Batafsil
-            </a>
+            </a> */}
          </div>
     )
 }
