@@ -1,0 +1,104 @@
+
+.interview_page{
+    background: url("../../assets/mac.webp");
+    background-size: cover;
+    min-height: 100vh;
+    padding: 10vh 0;
+}
+.interview_h2{
+    color: white;
+    text-align: center;
+    font-size: 3rem;
+}
+.interview_p{
+    color: white;
+    text-align: center;
+    margin: auto;
+    width: 80%;
+}
+
+.interview_container{
+    width: 70%;
+    margin: auto;
+}
+.inteview_flex{
+    margin: 5vh 0;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.interview_item{
+    background-color: rgb(39, 39, 39);
+    padding: 10px;
+    margin: 2rem 1rem;
+    border-radius: 20px;
+    filter: drop-shadow(5px 5px 5px rgba(0, 0, 0, 0.17));
+}
+
+.video{
+    width: 400px;
+    height: 220px;
+    border-radius: 10px;
+}
+
+.btns{
+    display: flex;
+    padding: 5px;
+}
+.btn1, .btn2, .btn3{
+    width: 18px;
+    height: 18px;
+    border-radius: 50%;
+    margin-right: 5px;
+    margin-bottom: 5px;
+}
+
+.btn1{
+    background-color: red;
+}
+.btn2{
+    background-color: rgb(255, 179, 0);
+}
+.btn3{
+    background-color: rgb(0, 222, 0);
+}
+
+
+/* Your CSS styles for mobile screens go here */
+@media screen and (max-width: 767px) {
+    .interview_container{
+        width: 95%;
+    }
+    .video{
+        width: 330px;
+        height: 180px;
+        border-radius: 10px;
+    }
+    .interview_item{
+        background-color: rgb(39, 39, 39);
+        padding: 10px;
+        margin: 1rem;
+        border-radius: 20px;
+        filter: drop-shadow(5px 5px 5px rgba(0, 0, 0, 0.17));
+    }
+    .interview_h2{
+        font-size: 2rem;
+    }
+}
+  
+
+/* Your CSS styles for tablet screens go here */
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    .interview_h2{
+        font-size: 2rem;
+    }
+
+}
+
+/* Your CSS styles for desktop screens go here */
+@media screen and (min-width: 1024px) {
+
+}   
+  
+
+  

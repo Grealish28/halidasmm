@@ -1,0 +1,59 @@
+.jobs_page{
+    width: 100%;
+    margin: 0 auto;
+}
+.jobs_container{
+    width: 70%;
+    margin: auto;
+    padding:  10vh 0 0 0;
+}
+.jobs_header{
+    margin: 0 auto;
+    text-align: center;
+    font-size: 3rem;
+    margin-bottom: 7rem;
+}
+.jobs_memojies{
+    text-align: center;
+    margin-bottom: 5vh;
+}
+
+.jobs_memoji{
+    height: 250px;
+}
+
+.jobs_cards{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-bottom: 10vh;
+}
+
+
+/* Your CSS styles for mobile screens go here */
+@media screen and (max-width: 767px) {
+    .jobs_header{
+        margin: 0 auto;
+        text-align: center;
+        font-size: 2rem;
+        margin-bottom: 1.5rem;
+    }
+    .jobs_container{
+        width: 98%;
+    }
+    .jobs_memoji{
+        max-height: 150px;
+    }
+}
+  
+
+/* Your CSS styles for tablet screens go here */
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    
+
+}
+
+/* Your CSS styles for desktop screens go here */
+@media screen and (min-width: 1024px) {
+
+}   

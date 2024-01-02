@@ -1,0 +1,14 @@
+.footer_text{
+    display: block;
+    width: 100%;
+    margin: 3rem 0 0 0;
+    text-align: center;
+    color: #5f5f5f;
+}
+.footer_year{
+    display: block;
+    margin-bottom: 3rem;
+    width: 100%;
+    text-align: center;
+    color: #5f5f5f;
+}

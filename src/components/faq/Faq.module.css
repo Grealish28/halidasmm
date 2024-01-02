@@ -1,0 +1,133 @@
+
+.faq_page{
+    width: 100%;
+    background: #F9F4F4;
+    position: relative;
+}
+.faq_heading{
+    text-align: center;
+    padding: 1rem 0;
+    margin-bottom: 5vh;
+    font-size: 3rem;
+}
+
+.faqLineTop{
+    background-color: rgb(20, 102, 255);
+    padding: .5rem;
+    font-size: 1rem;
+    color: white;
+    font-weight: 700;
+    display: flex;
+    justify-content: space-around;
+    overflow-x: hidden;
+    margin-bottom: 5vh;
+    
+}
+
+.faqLineBottom{
+    background-color: rgb(20, 102, 255);
+    padding: .5rem;
+    font-size: 1rem;
+    color: white;
+    font-weight: 700;
+    display: flex;
+    justify-content: space-around;
+    overflow-x: hidden;
+    margin-top: 8vh;
+}
+
+.faq_line_item{
+    padding: 0 1rem;
+}
+
+.faqLineText{
+    padding: 0 4em;
+}
+
+.faq_item{
+    margin: .5rem auto;
+    
+    padding: .5rem;
+    border-radius: 24px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: inset ;
+    filter: drop-shadow(5px 5px 5px rgba(0, 0, 0, 0.17));
+    transition: all 0.2s ease-out;
+}
+.container{
+    width: 50%;
+    margin: auto;
+}
+.title_line{
+    font-size: 1.2rem;
+    width: 100%;
+    color: white;
+    background-color:  rgb(20, 102, 255);
+    border-radius: 20px;
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.title{
+    padding: 0;
+    margin: 0;
+}
+.faq_subheading{
+    text-align: center;
+    margin-bottom: 5vh;
+}
+.dropdown_btn{
+    border-style: none;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.dropdownIcon{
+    height: .5rem;
+}
+
+.content{
+    padding: 1rem;
+}
+
+
+
+
+/* Your CSS styles for mobile screens go here */
+@media screen and (max-width: 767px) {
+    .faq_heading{
+        text-align: center;
+        padding: .5rem 0;
+        margin-bottom: 3vh;
+        font-size: 2rem;
+    }
+    
+    .title{
+        padding: 0;
+        margin: 0;
+        font-size: 1rem;
+
+    } 
+    .faq_item{
+        padding: .5rem;
+        border-radius: 24px;
+    }
+    .container{
+        width: 90%;
+    }
+    
+}
+  
+
+/* Your CSS styles for tablet screens go here */
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+
+}
+
+/* Your CSS styles for desktop screens go here */
+@media screen and (min-width: 1024px) {
+    
+}   
+  

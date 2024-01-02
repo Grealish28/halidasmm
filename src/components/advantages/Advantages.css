@@ -1,0 +1,141 @@
+.advantages_page{
+    width: 100%;
+    padding-bottom: 10vh;
+}
+.container{
+    width: 70%;
+    margin: auto;
+}
+
+h2{
+    padding: 0;
+    margin: 0;
+    width: 100%;
+}
+p{
+    margin-bottom: 2rem;
+}
+.itembg{
+    /* background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%); */
+    background-color: white;
+    padding: 8px;
+    border-radius: 36px;
+    filter: drop-shadow(5px 5px 5px rgba(0, 0, 0, 0.17));
+    margin: .5rem;
+    width: 200px;
+    height: 200px;
+    
+}
+.item{
+    background: rgb(153,231,255);
+    background: radial-gradient(circle, rgba(153,231,255,1) 0%, rgba(0,147,227,1) 100%);
+    /* background: rgba(0, 85, 255, 0.76); */
+    padding: 1rem;
+    border-radius:28px;
+    height: 100%;
+}
+.item img{
+    display: block;
+    height: 100px;
+    margin: auto;
+}
+.item h4{
+    width: 90%;
+    font-weight: 700;
+    margin: 10px auto;
+    text-align: center;
+    font-size: 1rem;
+    color: white;
+} 
+.item p{
+    text-align: center;
+} 
+.flex_items{
+    display: flex;
+    justify-content: center;
+}
+
+.form_link_button{
+    border: solid 5px white;
+    padding: 1rem 2rem;
+    /* color: white; */
+    background: #fff;
+    width: 250px;
+    text-align: center;
+    text-decoration: none;
+    margin: 3rem auto;
+    border-radius: 24px;
+    font-weight: 700;
+    color: black;
+    font-size: 1.2rem;
+    /* background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%); */
+    /* background: rgb(153,231,255);
+    background: radial-gradient(circle, rgba(153,231,255,1) 0%, rgba(0,147,227,1) 100%); */
+    filter: drop-shadow(5px 5px 5px #0000003b);
+    transition: 0.2s all ease-out;
+}
+.form_link_button:hover{
+    background: rgb(153,231,255);
+    background: radial-gradient(circle, rgba(153,231,255,1) 0%, rgba(0,147,227,1) 100%);
+    color: white;
+}
+.numbers{
+    background-image: linear-gradient(43deg, #7a82ac 0%, #003596 56%, #000d38 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+/* Your CSS styles for mobile screens go here */
+@media screen and (max-width: 767px) {
+    .container{
+        width: 98%;
+    }
+    .itembg{
+        padding: 4px;
+        border-radius: 24px;
+        margin: .2rem;
+        width: 150px;
+        height: 150px;
+    }
+    .item{
+        border-radius: 20px;
+        padding: .4rem;
+    }
+    .item img{
+        height: 80px;
+    }
+    .item h4{
+        font-size: .8rem;
+    }
+
+
+    
+}
+  
+
+/* Your CSS styles for tablet screens go here */
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    .itembg{
+        padding: 4px;
+        border-radius: 28px;
+        margin: .3rem;
+        width: 200px;
+        height: 200px;
+    }
+    .item{
+        border-radius: 24px;
+        padding: .4rem;
+    }
+    .item img{
+        height: 80px;
+    }
+    .item h4{
+        font-size: .7rem;
+        color: #5b5b5b;
+    }
+}
+
+/* Your CSS styles for desktop screens go here */
+@media screen and (min-width: 1024px) {
+    
+}   
+  

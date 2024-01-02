@@ -1,0 +1,59 @@
+.page{
+    background-image: url("../../assets/review_bg.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 5vh 0;
+}
+.review_container{
+    width: 70%;
+    margin: 10vh auto;
+}
+.carousel{
+    width: 50%;
+    margin: 5vh auto;
+    filter: drop-shadow(5px 5px 5px rgba(0, 0, 0, 0.17));
+    
+}
+.img{
+    border-radius: 32px;
+}
+h2{
+    font-size: 3rem;
+    font-family: 900;
+    filter: drop-shadow(5px 5px 5px rgba(0, 0, 0, 0.17));
+
+}
+p{
+    text-align: center;
+}
+
+
+@media screen and (max-width: 767px) {
+    .review_container{
+        width: 98%;
+    }
+    .carousel{
+        width: 80%;
+    }
+    h2{
+        font-size: 2rem;
+    }
+}  
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    .review_container{
+        width: 70%;
+    }
+    h2{
+        font-size: 2rem;
+    }
+}  
+  
+@media screen and (min-width: 1024px) {
+    .review_container{
+        width: 50%;
+    }
+}   
+  
+  
+  

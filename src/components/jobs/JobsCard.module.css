@@ -1,0 +1,68 @@
+
+.jobs_card_gradient{
+    width: 250px;
+    height: 100px;
+    background-color: #4158D0;
+    background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
+    border-radius: 40px;
+    transition: all .2s ease-out;
+    margin: .5rem;
+}
+.jobs_bg{
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 95%;
+    height: 90%;
+    background-color: white;
+    border-radius: 36px;
+    text-align: center;
+    color: #5b5b5b;
+    font-weight: 200;
+    
+}
+.jobs_card_gradient:hover{
+    background-color: #f5f5f5;
+    transform: scale(1.05);
+}
+
+.jobs_emoji{
+    height: 50px;
+    padding-top: 2vh;
+}
+
+
+/* Your CSS styles for mobile screens go here */
+@media screen and (max-width: 767px) {
+    .jobs_card_gradient{
+        width: 150px;
+        height: 80px;
+        background-color: #4158D0;
+        background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
+        border-radius: 22px;
+        transition: all .2s ease-out;
+        margin: .2rem;
+    }
+    .jobs_bg{
+        border-radius: 20px;
+        font-size: .7rem;
+    }
+    .jobs_emoji{
+        height: 40px;
+        padding-top: 1rem;
+    }
+}
+  
+
+/* Your CSS styles for tablet screens go here */
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+
+}
+
+/* Your CSS styles for desktop screens go here */
+@media screen and (min-width: 1024px) {
+    
+}   
+  
+  

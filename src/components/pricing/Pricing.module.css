@@ -1,0 +1,244 @@
+.header_title{
+    font-size: 3rem;
+}
+
+.container{
+    margin:  auto;
+    width: 70%;
+    padding: 5vh 0;
+}
+h2{
+    text-align: center;
+    font-size: 2rem;
+    margin: 3vh 0 6vh 0;
+}
+.statusGreen{
+    margin-right: 1rem;
+    color: rgb(0, 198, 89);
+}
+.listItem{
+    margin: .8rem 0;
+    font-size: .8rem;
+    font-weight: 600;
+    line-height: 1.5rem;
+}
+.listItemExcluded{
+    font-size: .8rem;
+    color: #5b5b5b;
+    line-height: 1.5rem;
+}
+.list{
+    margin: auto;
+    margin-bottom: 1rem;
+    
+}
+.prices{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 4rem;
+    align-items: flex-start;
+
+}
+.price{
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+a{
+    text-decoration: none;
+    display: block;
+}
+.pricing_flex{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 85%;
+}
+
+
+
+.pricing_item_standart{
+    margin: 0 auto;
+    padding: 1rem 2rem;
+    background: #f4f4f4;
+    filter: drop-shadow(5px 5px 5px rgba(0, 0, 0, 0.17));
+    border-radius: 32px;
+    font-size: .8rem;
+    transition: .2s all ease-out;
+    margin-bottom: 5vh;
+    width: 280px;
+}
+
+
+.standart_tag{
+    position: relative;
+    top: 0;
+    left: 50%;
+    font-weight: 400;
+    transform: translate(-50%, -50%);
+    width: 150px;
+    background-color: blue;
+    border: solid 5px blue;
+    color: white;
+    padding: 1rem;
+    text-align: center;
+    border-radius: 20px;
+    margin: 0;
+}
+.standart_button{
+    margin: auto;
+    width: 90%;
+    background-color: rgb(255, 255, 255);
+    border: solid 5px blue;
+    border-radius: 20px;
+    color: #5b5b5b;
+    text-align: center;
+    font-size: 1rem;
+    font-weight: 700;
+    padding: 1rem 0;
+    transition: 0.2s all ease-out;
+}
+.standart_button:hover{
+    background-color: blue;
+    border-color: blue;
+    color: white;
+}
+
+
+.pricing_item_pro{
+    margin: 0 auto;
+    padding: 1rem 2rem;
+    background: url("../../assets/pricing_paper.jpg");
+    filter: drop-shadow(5px 5px 5px rgba(0, 0, 0, 0.17));
+    border-radius: 32px;
+    font-size: .8rem;
+    transition: .2s all ease-out;
+    margin-bottom: 5vh;
+    width: 280px;
+}
+
+
+.pro_tag{
+    position: relative;
+    top: 0;
+    left: 50%;
+    font-size: 1rem;
+    font-weight: 400;
+    transform: translate(-50%, -50%);
+    width: 150px;
+    background-color: rgb(242, 242, 242);
+    color: #5b5b5b;
+    padding: 1rem;
+    background: #ffffff;
+    border: 5px #5b5b5b solid;
+    text-align: center;
+    border-radius: 20px;
+}
+.pro_button{
+    margin: 0 auto;
+    width: 90%;
+    background-color: rgb(255, 255, 255);
+    border: solid 5px #5b5b5b;
+    color: #5b5b5b;
+    border-radius: 20px;
+    text-align: center;
+    font-size: 1rem;
+    font-weight: 700;
+    padding: 1rem 0;
+    transition: .2s all ease-out;
+}
+.pro_button:hover{
+    color: #ffffff;
+    background-color: #5b5b5b;
+}
+
+.pricing_item_vip{
+    margin: auto;
+    padding: 1rem 2rem;
+    background: url("../../assets/pricing_vip.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    filter: drop-shadow(5px 5px 5px rgba(0, 0, 0, 0.17));
+    border-radius: 32px;
+    font-size: .8rem;
+    transition: .2s all ease-out;
+    color: white;
+    margin-bottom: 5vh;
+    width: 280px;
+
+}
+
+.vip_tag{
+    position: relative;
+    top: 0;
+    left: 50%;
+    font-size: 1rem;
+    font-weight: 400;
+    transform: translate(-50%, -50%);
+    width: 150px;
+    color: #5b5b5b;
+    padding: 1rem;
+    background: #FFD700;
+    border: 5px #FFD700 solid;
+    text-align: center;
+    border-radius: 20px;
+}
+.vip_button{
+    margin: auto;
+    width: 90%;
+    background-color: rgb(0, 0, 0);
+    border: solid 5px #FFD700;
+    color: #FFD700;
+    border-radius: 20px;
+    text-align: center;
+    font-size: 1rem;
+    font-weight: 700;
+    padding: 1rem 0;
+    transition: .2s all ease-out;
+}
+.vip_button:hover{
+    color: #000000;
+    background-color: #FFD700;
+}
+.oldprice{
+    color: #696969;
+    text-decoration: line-through;
+    margin: 0;
+}
+
+/* Your CSS styles for mobile screens go here */
+@media screen and (max-width: 767px) {
+    .container{
+        width: 98%;
+    }
+    .pricing_flex{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        height: 80%;
+    }
+    .header_title{
+        font-size: 2rem;
+    }
+    .pricing_item_vip, .pricing_item_pro, .pricing_item_standart{
+        width: 85%;
+    }  
+}
+
+/* Your CSS styles for tablet screens go here */
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    .container{
+        width: 90%;
+    }
+    .header_title{
+        font-size: 2rem;
+    }
+}
+
+/* Your CSS styles for desktop screens go here */
+@media screen and (min-width: 1024px) {
+    .container{
+        max-width: 1000px;
+    }
+}   
+  

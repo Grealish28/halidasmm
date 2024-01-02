@@ -1,0 +1,136 @@
+.guests_page{
+    width: 100%;
+    padding: 10vh 0;
+}
+
+.container{
+    width: 70%;
+    margin: auto;
+    padding: 10vh 0;
+}
+
+h2{
+    padding: 0;
+    margin: 2rem 0;
+}
+p{
+    margin-bottom: 2rem;
+}
+.itembg{
+    background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
+    padding: 8px;
+    border-radius: 36px;
+    filter: drop-shadow(5px 5px 5px rgba(0, 0, 0, 0.17));
+    margin: 1rem;
+    width: 320px;
+    
+}
+.item{
+    background: rgb(241, 241, 241);
+    height: 100%;
+    padding: 1rem;
+    border-radius:28px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+}
+.item img{
+    display: block;
+    height: 240px;
+    border-radius: 24px;
+    margin: auto;
+    margin-bottom: 1rem;
+}
+.item h3{
+    font-weight: 700;
+    font-size: 1.5rem;
+    text-align: center;
+    margin: 10px 0;
+} 
+.item h4{
+    font-weight: 700;
+    font-size: 1rem;
+    text-align: center;
+    margin: 10px 0 20px 0;
+    color: #3f3f3f;
+    height: 2rem;
+    vertical-align: center;
+}
+.item p{
+    text-align: center;
+    width: 95%;
+    height: 5rem;
+} 
+.flex_items{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.form_link_button{
+    border: solid 5px white;
+    padding: 1rem 2rem;
+    color: white;
+    background: #000;
+    width: 200px;
+    text-align: center;
+    text-decoration: none;
+    margin: 3rem auto;
+    border-radius: 24px;
+    font-weight: 700;
+    background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
+    filter: drop-shadow(5px 5px 5px #0000003b);
+    transition: 0.2s all ease-out;
+}
+.form_link_button:hover{
+    scale: 1.02;
+    border: solid 6px white;
+
+}
+
+/* Your CSS styles for mobile screens go here */
+@media screen and (max-width: 767px) {
+    .container{
+        width: 98%;
+    }
+    .itembg{
+        padding: 6px;
+        border-radius: 36px;
+        margin: .3rem;
+        width: 310px;
+    }
+    .item{
+        border-radius: 30px;
+    }
+    .item img{
+        height: 200px;
+    }
+    /* .item h3{
+        font-size: 1.5rem;
+        width: 90%;
+    }
+    .item h4{
+
+    } */
+    .flex_items{
+        display: flex;
+        justify-content: center;
+    }
+    
+
+    
+}
+  
+
+/* Your CSS styles for tablet screens go here */
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+
+}
+
+/* Your CSS styles for desktop screens go here */
+@media screen and (min-width: 1024px) {
+    
+}   
+  
