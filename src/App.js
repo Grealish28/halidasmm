@@ -17,7 +17,7 @@ function App() {
   const [showLoader, setShowLoader] = useState(true);
   setTimeout(()=>{
     setShowLoader(false);
-  }, 3000)
+  }, 4000)
 
   return (
     <>
